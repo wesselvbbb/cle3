@@ -40,7 +40,8 @@ nav {
     background-color: #9a438b;
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 15px 45px;
     height: 6vh;
     align-items: center;
     font-family: "Poppins", sans-serif;
