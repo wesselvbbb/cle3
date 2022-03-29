@@ -61,3 +61,52 @@ nav div.selected {
 nav div:hover a {
     color: black;
 }
+
+footer {
+    background-color: #9a438b;
+    height: 10vh;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 600px) {
+    section {
+        max-width: 100%;
+    }
+
+    header {
+        display: block;
+        height: 20vh;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        font-family: "Poppins", sans-serif;
+        text-shadow: 3px 3px rgb(222, 158, 54);
+    }
+
+    section{
+        width: 80vw;;
+    }
+
+    nav {
+        height: 15vh;
+        flex-direction: column;
+    }
+
+    nav div {
+        border-bottom: 1px solid white;
+    }
+
+    .sticky {
+        position: initial;
+    }
+}
