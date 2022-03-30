@@ -8,6 +8,10 @@ html, body{
     padding: 0;
 }
 
+h1{
+    font-family: "Poppins", sans-serif;
+}
+
 header {
     height: 40vh;
     background-color: rgb(83, 98, 90);
@@ -64,9 +68,9 @@ nav div:hover a {
     font-weight: bold;
 }
 
-div{
-    border: 1px solid red;
-}
+/*div{*/
+/*    border: 1px solid red;*/
+/*}*/
 
 div.container {
     display: flex;
@@ -78,7 +82,7 @@ div.child {
 
 footer {
     background-color: #9a438b;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     font-family: "Poppins", sans-serif;
     color: white;
@@ -90,6 +94,11 @@ figure img {
     object-fit: contain;
     width: 40%;
     height: 40%;
+}
+
+img{
+    width: 100%;
+    object-fit: cover   ;
 }
 
 figure img:hover {
