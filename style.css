@@ -12,6 +12,10 @@ h1{
     font-family: "Poppins", sans-serif;
 }
 
+p{
+    font-family: "Poppins", sans-serif;
+}
+
 header {
     height: 40vh;
     background-color: rgb(83, 98, 90);
@@ -93,7 +97,7 @@ figure img {
 }
 
 img{
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     max-height: 80%;
 }
